@@ -64,6 +64,7 @@
 }
 
 .clients__filter-button {
+    white-space: nowrap;
     padding: 10px 20px;
     color:#BAB6A7;
     font-family: Rubik,sans-serif;
@@ -273,6 +274,16 @@
     }
 
 
+}
+
+@media (max-width: 680px) {
+    .clients__item {
+        width: 100%;
+    }
+    .clients__image {
+        width: 100%;
+        max-width: inherit;
+    }
 }
 
 @media (max-width: 626px) {
