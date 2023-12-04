@@ -39,11 +39,15 @@
     margin-bottom: 30px;
 }
 
+.news__link:not(:last-child) {
+    border-bottom: 1px solid rgba(62, 60, 52, 0.80);
+}
+
 .news__link {
     transition: all .3s;
     cursor: pointer;
     padding: 30px 17px 30px 60px;
-    border-bottom: 1px solid rgba(62, 60, 52, 0.80);
+
 
 }
 
@@ -178,9 +182,13 @@
     }
 
 
+    .news__mobile-item:not(:last-child) .news__mobile-link {
+        border-bottom: 1px solid #D5D4CE;
+    }
+
     .news__mobile-link {
         padding: 30px 40px;
-        border-bottom: 1px solid #D5D4CE;
+
 
     }
 
