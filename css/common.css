@@ -68,8 +68,8 @@ img {
 }
 
 .header__menu:hover .header__menu-burger svg  {
-    fill: #CDBB42;
-    stroke: #CDBB42;
+    fill: #E4C72B;
+    stroke: #E4C72B;
 }
 
 .header__modile-language {
@@ -188,7 +188,7 @@ img {
 }
 
 .menu__nav-link:hover {
-    color: #CDBB42;
+    color: #E4C72B;
 }
 
 .menu__nav-item:not(:last-child) {
@@ -211,8 +211,8 @@ img {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
-    fill: #CDBB42;
-    stroke: #CDBB42;
+    fill: #E4C72B;
+    stroke: #E4C72B;
 }
 
 .menu__image {
@@ -370,7 +370,7 @@ img {
 
 .footer {
     padding-top: 60px;
-    background-color: #2F2E27;
+    background-color: #151412;
     text-align: center;
 }
 
@@ -403,7 +403,7 @@ img {
 }
 
 .footer__nav-link:hover {
-    color: #CDBB42;
+    color: #E4C72B;
 }
 
 .footer__contact {

@@ -7,6 +7,7 @@
 }
 
 .clients {
+    background-color: #1B1A18;
     padding: 120px 0px;
 }
 
@@ -22,7 +23,7 @@
     -ms-flex-align: center;
     align-items: center;
     gap: 40px;
-    color:#C9C8C8;
+    color:#8F9083;
     font-family: Tektur,sans-serif;
     font-size: 44px;
     font-style: normal;
@@ -35,20 +36,20 @@
     cursor: pointer;
     text-align: center;
     width: 100%;
-    border-bottom: 4px solid #C9C8C8;
+    border-bottom: 4px solid #8F9083;
     -webkit-transition: all .4s;
     -o-transition: all .4s;
     transition: all .4s;
 }
 
 .clients__players:hover, .clients__coach:hover {
-    color: #CDBB42;
-    border-color: #CDBB42;
+    color: #E4C72B;
+    border-color: #E4C72B;
 }
 
 .clients__players.active , .clients__coach.active {
-    color: #CDBB42;
-    border-color: #CDBB42;
+    color: #E4C72B;
+    border-color: #E4C72B;
 }
 
 .clients__filter {
