@@ -45,6 +45,10 @@
     gap: 30px;
 }
 
+.map__content.hidden {
+    display: none;
+}
+
 .map__nav {
     max-width: 246px;
     color: #D5D4CE;
@@ -190,7 +194,6 @@
 
 .form__address-add {
     display: flex;
-    align-items: center;
     gap: 15px;
     color:#D5D4CE;
     font-family: Rubik,SansSerif;

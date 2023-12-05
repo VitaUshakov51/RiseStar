@@ -104,7 +104,7 @@
     <section class="map" id="map">
         <div class="container">
             <div class="map__tabs">
-                <div class="map__tab-btn active">Россия</div>
+                <div class="map__tab-btn active" id="russianTab">Россия</div>
                 <div class="map__tab-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="78" height="77" viewBox="0 0 78 77" fill="none">
                         <path d="M68.9258 16.3926H9.07031C7.47542 16.3944 5.94637 17.0287 4.81861 18.1565C3.69085 19.2843 3.05649 20.8133 3.05469 22.4082V29.9277H74.9414V22.4082C74.9396 20.8133 74.3052 19.2843 73.1775 18.1565C72.0497 17.0287 70.5207 16.3944 68.9258 16.3926Z" fill="#757760"/>
@@ -112,24 +112,30 @@
                         <path d="M3.05469 31.7324H74.9414V45.2676H3.05469V31.7324Z" fill="#757760"/>
                     </svg>
                 </div>
-                <div class="map__tab-btn">Италия</div>
+                <div class="map__tab-btn" id="italyTab">Италия</div>
             </div>
-            <div class="map__content">
+            <div class="map__content" id="contentRussia">
                 <div class="map__nav">
                     <div class="map__nav-text">Наши клиенты из разных уголков страны</div>
                     <ul class="map__nav-list">
-                        <li class="map__nav-item active">Москва</li>
-                        <li class="map__nav-item">Санкт-Петербург</li>
-                        <li class="map__nav-item">Пермь</li>
-                        <li class="map__nav-item">Санкт-Петербург</li>
-                        <li class="map__nav-item">Санкт-Петербург</li>
-                        <li class="map__nav-item">Санкт-Петербург</li>
-                        <li class="map__nav-item">Санкт-Петербург</li>
-                        <li class="map__nav-item">Санкт-Петербург</li>
+                        <li class="map__nav-item active" id="moscow">Москва</li>
+                        <li class="map__nav-item" id="spb">Санкт-Петербург</li>
                     </ul>
                 </div>
                 <div class="map__image">
-                    <img src="images/map.png" alt="Карта">
+                    <img src="images/moscow-map.png" alt="Карта">
+                </div>
+            </div>
+            <div class="map__content hidden" id="contentItaly">
+                <div class="map__nav">
+                    <div class="map__nav-text">Наши клиенты из разных уголков страны</div>
+                    <ul class="map__nav-list">
+                        <li class="map__nav-item active" id="rome">Рим</li>
+                        <li class="map__nav-item" id="milan">Милан</li>
+                    </ul>
+                </div>
+                <div class="map__image">
+                    <img src="images/rome-map.png" alt="Карта">
                 </div>
             </div>
         </div>

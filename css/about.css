@@ -515,7 +515,7 @@
 @media (max-width: 426px) {
     .about {
         padding-top: 80px;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 
     .about__title-name, .history__title, .team__title {
