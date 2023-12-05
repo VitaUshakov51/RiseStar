@@ -156,11 +156,6 @@
 
 }
 
-@media (max-width: 600px) {
-    .hero {
-        background-position-x: center;
-    }
-}
 
 @media (max-width: 700px) {
 
@@ -189,6 +184,13 @@
     }
 
 
+}
+
+
+@media (max-width: 600px) {
+    .hero {
+        background-position-x: center;
+    }
 }
 
 @media (max-width: 500px) {
