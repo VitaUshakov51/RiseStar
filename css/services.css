@@ -41,7 +41,7 @@
 
 .services__tabs {
     width: 100%;
-    background-image: url("../images/serv-decor-transf.png");
+    /*background-image: url("../images/serv-decor-transf.png");*/
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -178,6 +178,7 @@
 
     .services__content-title {
         font-size: 32px;
+        color: #E4C72B;
     }
 
 
