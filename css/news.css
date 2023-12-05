@@ -1,8 +1,25 @@
+
+
 .news__hero {
     background-image: url("../images/news-bg.png") ;
 }
 
 .news {
+    background: -webkit-gradient(
+            linear,
+            left top, right top,
+            from(#1B1A18),
+            color-stop(50%, #1B1A18),
+            color-stop(50%, #2C2924),
+            to(#2C2924)
+    );
+    background: -o-linear-gradient(
+            left,
+            #1B1A18 0%,
+            #1B1A18 50%,
+            #2C2924 50%,
+            #2C2924 100%
+    );
     background: linear-gradient(
             to right,
             #1B1A18 0%,
@@ -13,6 +30,8 @@
 }
 
 .news__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 1100px;
 }
@@ -44,6 +63,8 @@
 }
 
 .news__link {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
     cursor: pointer;
     padding: 30px 17px 30px 60px;
@@ -138,7 +159,7 @@
     }
 
     .news__content, .news__list {
-    display: none;
+        display: none;
     }
 
     .news__container {
@@ -168,6 +189,8 @@
     .news__mobile-item {
         cursor: pointer;
         overflow: hidden;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
         transition: all .3s;
         background-color: #1B1A18;
     }
@@ -175,9 +198,12 @@
 
 
     .news__mobile-link.active {
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
         transition: all .3s;
         height:inherit ;
         background-color: #2C2924;
+        -webkit-animation: showAccordeon 1s ease-in-out;
         animation: showAccordeon 1s ease-in-out;
     }
 
