@@ -59,7 +59,7 @@
     addClassList(linkTransfer)
     contentTitle.innerText = 'Трансфер'
     contentText.innerHTML = transferText
-    tabsBlock.style.backgroundImage = 'url("../images/serv-decor-transf.png")';
+    tabsBlock.style.backgroundImage = 'url("images/serv-decor-transf.png")';
 
 
     linkYurist.addEventListener('click', function () {
@@ -69,7 +69,7 @@
         removeClassList(linkCareer)
         removeClassList(linkSpeak)
         removeClassList(linkData)
-        tabsBlock.style.backgroundImage = 'url("../images/yurist.png")';
+        tabsBlock.style.backgroundImage = 'url("images/yurist.png")';
         contentTitle.innerText = 'Юридические'
         contentText.innerHTML = yuristText;
 
@@ -81,7 +81,7 @@
         removeClassList(linkCareer)
         removeClassList(linkSpeak)
         removeClassList(linkData)
-        tabsBlock.style.backgroundImage = 'url("../images/serv-decor-transf.png")';
+        tabsBlock.style.backgroundImage = 'url("images/serv-decor-transf.png")';
         contentTitle.innerText = 'Трансфер'
         contentText.innerHTML = transferText;
 
@@ -93,7 +93,7 @@
         removeClassList(linkCareer)
         removeClassList(linkSpeak)
         removeClassList(linkData)
-        tabsBlock.style.backgroundImage = 'url("../images/heatle.png")';
+        tabsBlock.style.backgroundImage = 'url("images/heatle.png")';
         contentTitle.innerText = 'Здоровье & питание'
         contentText.innerHTML = heatleText;
 
@@ -105,7 +105,7 @@
         removeClassList(linkHeatle);
         removeClassList(linkSpeak);
         removeClassList(linkData);
-        tabsBlock.style.backgroundImage = 'url("../images/career.png")';
+        tabsBlock.style.backgroundImage = 'url("images/career.png")';
         contentTitle.innerText = 'Развитие карьеры'
         contentText.innerHTML = careerText;
 
@@ -117,7 +117,7 @@
         removeClassList(linkHeatle)
         removeClassList(linkCareer)
         removeClassList(linkData)
-        tabsBlock.style.backgroundImage = 'url("../images/speak.png")';
+        tabsBlock.style.backgroundImage = 'url("images/speak.png")';
         contentTitle.innerText = 'Переговоры'
         contentText.innerHTML = speakText;
 
@@ -129,7 +129,7 @@
         removeClassList(linkHeatle)
         removeClassList(linkCareer)
         removeClassList(linkSpeak)
-        tabsBlock.style.backgroundImage = 'url("../images/data.png")';
+        tabsBlock.style.backgroundImage = 'url("images/data.png")';
         contentTitle.innerText = 'Анализ данных & Видео'
         contentText.innerHTML = dataText;
 
